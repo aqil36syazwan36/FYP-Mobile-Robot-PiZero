@@ -7,8 +7,8 @@ Requires=pigpiod.service
 [Service]
 Type=simple
 User=rp0w
-WorkingDirectory=/home/rp0w/microros_ws
-ExecStart=/usr/bin/python3 /home/rp0w/microros_ws/motor_server.py
+WorkingDirectory=/home/rp0w/FYP-Mobile-Robot-PiZero/microros_ws
+ExecStart=/usr/bin/python3 /home/rp0w/FYP-Mobile-Robot-PiZero/microros_ws/motor_server.py
 Restart=always
 RestartSec=3
 
